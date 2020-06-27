@@ -1,0 +1,38 @@
+/* BACKGROUND AND FONTS */
+html {
+    background-size: cover;
+}
+h1, h4, p, .quiz_btn, a {
+    font-family: sans-serif;
+}
+h1, h4, p, a, img {  
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.plaier {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: 1rem;
+}
+img {
+    margin-right: 1rem;
+    float: left;
+}
+p {
+    font-weight: bold;
+}
+/* LINK TO TAKE QUIZ */
+.quiz_btn {
+    color: black;
+    font-size: xx-large;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: #ffcc26;
+    border-color: #ffcc26;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 78%;
+    left: 8%;
+}
